@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;    
+}
+
+.header {
+    background-image: linear-gradient(#ffffff8f, #ffffff38), 
+                url(imgs/doctorwho-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;                
+    height: 50%;
+}
+
+.title {
+    position: relative;
+    top: 2.1em;
+    line-height: 25px;
+    color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.9em;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 5px 5px 5px #0000005d;
+}
+
+.subtitle {
+    position: relative;
+    top: 4em;
+    line-height: 0;
+    color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 5px 5px 5px #0000005d;
+}
+
+.bottom {
+    background: linear-gradient(#181818, #575757);
+    height: 50%;
+    margin: 0;
+}
+
+#q-1, #q-2, #q-3, #q-4, #finale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background: linear-gradient(#181818, #575757);
+    text-align: center;
+    color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+}

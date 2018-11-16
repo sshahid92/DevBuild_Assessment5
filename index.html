@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Doctor Who Trivia Game</title>
+    <link rel="stylesheet" href="style.css">
+       
+</head>
+<body> 
+    <div class="header">        
+            <h1 class="title">Doctor Who Trivia Game!</h1>
+            <h2 class="subtitle">Web Trivia</h2>
+    </div>
+
+    <div class="bottom">
+        <div id="q-1">
+            <p>Who was the 10th Doctor?</p>
+                <form>
+                    <input type="radio" name="question 1" id= "q-1-true">David Tennant</input>
+                    <input type="radio" name="question 1">Matt Smith</input>
+                    <input type="radio" name="question 1">John Hurt</input><br>
+                    <input type="button" onclick="question1Submit()" value="Submit"/>
+                </form>            
+        </div>
+        <div id="q-2">
+            <p>Who is River Song?</p>
+                <form>
+                    <input type="radio" name="question 2">The Doctor's TARDIS</input>
+                    <input type="radio" name="question 2">The 14th Doctor</input>
+                    <input type="radio" name="question 2" id= "q-2-true">The Doctor's Wife</input><br>
+                    <input type="button" onclick="question2Submit()" value="Submit"/>
+                </form>            
+        </div>
+        <div id="q-3"></p>
+            <p>Who is the Doctors Rival?
+                <form>
+                    <input type="radio" name="question 3">The Mister</input>
+                    <input type="radio" name="question 3" id= "q-3-true">The Master</input>
+                    <input type="radio" name="question 3">His Self</input><br>
+                    <input type="button" onclick="question3Submit()" value="Submit"/>
+                </form>            
+        </div>
+        <div id="q-4">
+            <p>Which Doctor famously loved bow ties?</p>
+                <form>
+                    <input type="radio" name="question 4">David Tennant</input>
+                    <input type="radio" name="question 4" id= "q-4-true">Matt Smith</input>
+                    <input type="radio" name="question 4">John Hurt</input><br>
+                    <input type="button" onclick="question4Submit()" value="Submit"/>
+                </form>            
+        </div>
+
+        <div id="finale">
+            <p>Thank you for playing!You got <span id='correct'></span> right and <span id='incorrect'></span> wrong!</p>
+            <p>Geronimo fellow time traveler!!!</p>
+        </div>
+    </div>
+    <script src="main.js"></script> 
+
+    
+</body>
+</html>
